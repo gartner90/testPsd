@@ -32,6 +32,10 @@ body {
   -ms-animation: fade 1s;
   animation: fade 1s; }
 
+input {
+  -webkit-appearance: none;
+}
+
 .logo, h1, h4, .read {
   -webkit-animation: fade 5s;
   -moz-animation: fade 5s;

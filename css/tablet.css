@@ -6,7 +6,7 @@
   .slideout-menu {
     width: 270px; }
   .menu-mobile {
-    position: absolute;
+    position: fixed;
     z-index: 0;
     background-color: #4F4F4F;
     height: 100%;
