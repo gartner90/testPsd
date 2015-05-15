@@ -1,0 +1,87 @@
+@media screen and (max-width:600px) {
+
+	.hamburguer {
+		display: block;
+		width: 30px;
+		height: 30px;
+		background-image: url("../img/hamburguer.svg");
+		position: absolute;
+  		z-index: 1;
+		cursor: pointer;
+		right: 30px;
+		top: 30px;
+	}
+
+	.slider {
+		.logo {
+			display: block;
+			margin: 0 auto;
+		}
+
+		.main-menu {
+			display: none;
+		}
+
+		 h4 {
+			margin-top: 62px;
+			font-size: 16px;
+		}
+
+		h1 {
+			font-size: 25px;
+		}
+
+		.read {
+			width: 138px;
+			height: 40px;
+			font-size: 15px;
+			line-height: 42px;
+		}
+	}
+
+	.sections {
+		h2 {
+			font-size: 23px;
+		}
+
+		.subtitle {
+			font-size: 13px;
+		}
+
+		.items article {
+			width: 96%;
+			margin: 0 2% 40px;
+		}
+	}
+
+	footer {
+		.content-footer {
+			padding-top: 13px;
+		}
+
+		.text {
+			font-size: 14px;
+		}
+
+		form {
+			max-width: 100%;
+		}
+
+		select, 
+		input[type="text"], 
+		input[type="submit"] {
+			width: 96%;
+			margin-bottom: 10px;
+			margin-left: 2%;
+			margin-right: 2%;
+			border-radius: 6px;
+			box-sizing: border-box;
+			height: 37px;
+		}
+
+		select, 
+		input[type="text"] {
+			margin-bottom: 10px;
+		}
+	}
+}

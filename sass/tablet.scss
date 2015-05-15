@@ -1,0 +1,155 @@
+@media screen and (max-width:900px) {
+	
+	.slideout-open {
+		.menu-mobile {
+		    display: block;
+		}
+	}
+
+	#panel {
+		background-color: white;
+	}
+
+	.slideout-menu {
+		width: 270px;
+	}
+ 
+	.menu-mobile {
+	    position: fixed;
+	    z-index: 0;
+	    background-color: #4F4F4F;
+	    height: 100%;
+	    right: 0;
+		padding-top: 40px;
+
+	    ul {
+		    list-style: none;
+		    padding: 12px 30px;
+
+		    li {
+			    padding: 5px;
+			    color: #FFF;
+			    margin: 5px 0;
+			    text-align: center;
+			}
+
+			a {
+			    text-decoration: none;
+			    color: white;
+			} 
+
+			.active li {
+			    border-bottom: solid 2px #6FE088;
+			}
+		}
+
+		.close-menu-mobile {
+			background-color: #FFF;
+			text-align: center;
+		}
+	}
+
+	.slider {
+		height: 420px;
+
+		.logo {
+			top: 24px;
+		}
+
+		.main-menu {
+			margin-top: -50px;
+		}
+
+		h4 {
+			margin-top: 52px;
+			font-size: 21px;
+		}
+
+		h1 {
+			margin-top: 8px;
+			font-size: 37px;
+		}
+
+		.read {
+			background-color: rgba(255, 255, 255, 0.72);
+			margin: -3px auto 0;
+		}
+	}
+
+	.sections {
+		h2 {
+			margin-top: 20px;
+			font-size: 30px;
+		}
+
+		.subtitle {
+			font-size: 16px;
+			margin-bottom: 30px;
+		}
+
+		.items {
+			margin: 0 auto 20px;
+			
+			article {
+				width: 28%;
+				margin: 0 2% 10px;
+
+				h4 {
+					margin: 10px 0 0px;
+				}
+
+				p {
+					font-size: 12px;
+				}
+			}
+		}
+
+		.read-more {
+			width: 128px;
+			height: 35px;
+			background-color: #FFF;
+			border: solid 2px;
+			line-height: 35px;
+			font-size: 16px;
+		}
+	}
+
+	footer {
+		.text {
+			width: 90%;
+			margin: 0 auto;
+			margin-bottom: 15px;
+		}
+
+		form {
+			max-width: 570px;
+			margin: 0 auto;
+		}
+
+		select {
+			width: 218px;
+			height: 36px;
+			border-radius: 6px;
+			padding-left: 4px;
+			font-size: 14px;
+			margin-right: 4px;
+			margin-left: 10px;
+		}
+
+		input[type="text"] {
+			width: 205px;
+			height: 32px;
+			border-radius: 6px 0 0 6px;
+			padding-left: 16px;
+			font-size: 12px;
+		}
+
+		input[type="submit"] {
+			padding: 12px;
+			height: 39px;
+			border-radius: 0 6px 6px 0;
+			font-size: 14px;
+			padding-left: 8px;
+		}
+	}
+} 
