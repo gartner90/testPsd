@@ -32,7 +32,7 @@ body {
   -ms-animation: fade 1s;
   animation: fade 1s; }
 
-input {
+input, select {
   -webkit-appearance: none;
 }
 
